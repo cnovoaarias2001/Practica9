@@ -127,7 +127,7 @@ Dentro de la carpeta tanto de /etc/apache2/sites-avaliables como de /etc/apache2
 fabulasmaravillosas.conf
 ```
 <VirtualHost *:8080>
-    ServerAdmin webmaster@localhost  #admin 
+    ServerAdmin webmaster@localhost
     ServerName fabulasmaravillosas.asircastelao.int 
     ServerAlias www.fabulasmaravillosas.asircastelao.int 
     DocumentRoot /var/www/fabulasmaravillosas
@@ -137,10 +137,12 @@ fabulasmaravillosas.conf
 fabulasoscuras.conf
 ```
 <VirtualHost *:8080>
-    ServerAdmin webmaster@localhost #admin 
+    ServerAdmin webmaster@localhost
     ServerName fabulasoscuras.asircastelao.int
     ServerAlias www.fabulasoscuras.asircastelao.int
     DocumentRoot /var/www/fabulasoscuras
 </VirtualHost>
 ```
-**8º **
+
+**8º DNS**
+Desactivaremos el DNS automático en el adaptador de red apartado IPv4.
